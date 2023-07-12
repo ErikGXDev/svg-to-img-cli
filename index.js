@@ -14,7 +14,7 @@ async function main() {
     process.exit();
   }
 
-  const svg = fs.readFileSync(join(__dirname, inputfile));
+  const svg = fs.readFileSync(join(process.cwd(), inputfile));
 
   const opts = {
     background,
@@ -28,7 +28,7 @@ async function main() {
   const pngData = resvg.render();
   const pngBuffer = pngData.asPng();
 
-  fs.writeFileSync(join(__dirname, outputfile), pngBuffer);
+  fs.writeFileSync(join(process.cwd(), outputfile), pngBuffer);
 }
 
 main();
