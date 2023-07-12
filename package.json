@@ -8,7 +8,7 @@
     "build": "pkg ."
   },
   "pkg": {
-    "output": "dist"
+    "outputPath": "dist"
   },
   "keywords": [],
   "author": "",
