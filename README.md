@@ -2,9 +2,7 @@
 
 ## How to use
 
-Get the latest executable / build it yourself
-
-Run the executable in the command line:
+Build the executable and use it like this:
 
 ```
 executable -i input.png -o output.svg -w 1920
