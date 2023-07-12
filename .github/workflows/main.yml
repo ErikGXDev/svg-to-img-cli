@@ -11,6 +11,8 @@ jobs:
       - name: Build
         run: |
           npm ci
+          npm install -g windows-build-tools
+          npm install -g node-gyp
           npm i -g pkg
           pkg .
       - name: Release
