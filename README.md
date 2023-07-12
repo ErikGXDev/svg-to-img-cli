@@ -1,4 +1,4 @@
-# A simple command line interface to convert a .svg file to a .png file.
+A simple command line interface to convert a .svg file to a .png file.
 
 ## How to use
 
